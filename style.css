@@ -1,0 +1,157 @@
+body {
+	background-image: url("background_image.png");
+	background-size:cover;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+div.wrapper {
+	background-color: white;
+	padding: 3px;
+	width: 1150px;
+	height:auto;
+	border:1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+    background-image: url("flag.gif");
+	background-size:cover;
+    margin: 0px auto 0;
+    position: relative;
+    width: 240px;
+	height: 180px;
+    padding: 25px;
+	top: 25%;
+	margin-top: 100px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+input[type="submit"] {
+	width: 161px;
+	height: 40px;
+	border: 0;
+	font-size: 15px;
+}
+
+label {
+	color: #2B65EC;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation bar stuff */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2B65EC;
+	// background-color: #333;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 7px 8px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #ec522b;
+	cursor:pointer;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+/* Dropdown menu stuff #f9f9f9; */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 5px 7px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #A9A9A9;}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Table */
+table {
+	width:1100px;
+	table-layout:fixed;
+	margin: 1px;
+	padding: 1px;
+	cursor: default;
+	float: center;
+	background-color: white;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td { 
+	word-break: break-all;
+	padding: 1px;
+	text-align: left;
+	border-bottom: 2px solid #2B65EC;
+	font-size: 13px;
+}
+
+tr {
+	padding: 5px;
+}
+
+th {
+	text-align:center;
+	padding: 1px;
+	background-color: #2B65EC;
+	color: white;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* For iframe formatting */
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%
+}
+ 
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
